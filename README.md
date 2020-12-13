@@ -1,2 +1,37 @@
 # react-native-animated-switch
-Living version, 100 lines of code's switch implementation for Android and iOS
+
+Living version, 100 lines of code's switch implementation for Android and iOS.
+
+## Demo
+
+url: https://snack.expo.io/@zhangbao90s/animated-switch-v0.0.1
+
+![React Native Animated Switch](./animated-switch.gif)
+
+## Install
+
+Just copy `AnimatedSwitch.js`'s code from demo above to your project.
+
+## Usage
+
+```js
+import AnimatedSwitch from './AnimatedSwitch'
+
+<AnimatedSwitch
+  value={false}
+  onValueChange={value => console.log(value)}
+/>
+```
+
+## Props
+
+| Prop          | Type     | Optional | Default value | Description                            |
+| ------------- | -------- | -------- | ------------- | -------------------------------------- |
+| value         | Boolean  | true     |               | Default state.                         |
+| onValueChange | Function | true     |               | Trigger after switch state is changed. |
+| onColor       | String   | true     | dodgerblue    | Active color.                          |
+| offColor      | String   | true     | lightgray     | Inactive color.                        |
+
+## License
+
+MIT
