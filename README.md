@@ -1,10 +1,10 @@
 # react-native-animated-switch
 
-Living version, 100 lines of code's switch implementation for Android and iOS.
+Living version, 96 lines of code's switch implementation for Android and iOS.
 
 ## Demo
 
-url: https://snack.expo.io/@zhangbao90s/animated-switch-v0.0.1
+url: https://snack.expo.io/@zhangbao90s/animated-switch-v0.0.2
 
 ![React Native Animated Switch](./animated-switch.gif)
 
