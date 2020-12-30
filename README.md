@@ -4,13 +4,13 @@ Lightweight switch implementation for Android and iOS.
 
 ## Demo
 
-url: https://snack.expo.io/@zhangbao90s/animated-switch-v0.0.3-alpha
+url: https://snack.expo.io/@zhangbao90s/animated-switch-v0.0.3-beta
 
 ![React Native Animated Switch](https://raw.githubusercontent.com/baooab/react-native-animated-switch/main/animated-switch.gif)
 
 ## Install
 
-Just copy `AnimatedSwitch.js`'s code from demo above to your project.
+Just copy `AnimatedSwitch.tsx`'s code from demo above to your project.
 
 ## Usage
 
@@ -24,8 +24,8 @@ import AnimatedSwitch from './AnimatedSwitch';
 
 | Prop          | Type     | Optional | Default value | Description                            |
 | ------------- | -------- | -------- | ------------- | -------------------------------------- |
-| value         | Boolean  | true     |               | Default state.                         |
-| onValueChange | Function | true     |               | Trigger after switch state is changed. |
+| value         | Boolean  | false    |               | Default state.                         |
+| onValueChange | Function | false    |               | Trigger after switch state is changed. |
 | width         | Number   | true     | 54            | Switch width.                          |
 | height        | Number   | true     | 30            | Switch height.                         |
 | onColor       | String   | true     | dodgerblue    | Active color.                          |
