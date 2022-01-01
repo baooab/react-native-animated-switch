@@ -4,7 +4,7 @@ Lightweight switch implementation for Android and iOS.
 
 ## Demo
 
-url: https://snack.expo.io/@zhangbao90s/animated-switch-v0.0.3-beta
+url: https://snack.expo.io/@zhangbao90s/animated-switch-v3
 
 ![React Native Animated Switch](https://raw.githubusercontent.com/baooab/react-native-animated-switch/main/animated-switch.gif)
 
